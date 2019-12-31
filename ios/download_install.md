@@ -41,7 +41,7 @@ itms-services://?action=download-manifest&url=https://localhost/Demo.plist
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>[your ipa file url]</string></string>
+					<string>[your ipa file url]</string>
 				</dict>
 				<dict>
 					<key>kind</key>

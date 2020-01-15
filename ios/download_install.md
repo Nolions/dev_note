@@ -19,7 +19,15 @@ EX:
 itms-services://?action=download-manifest&url=https://localhost/Demo.plist
 ```
 
-4. 如果將plist放於 AWS S3上則需要新增以下標籤
+4. 如果將AWS S3上則需要分別將ipa及plist檔案分耶新增以下標籤
+
+ipa:
+
+| key        | value|
+| ---------- | -------- |
+| MIME types | application/octet-stream |
+
+plist:
 
 | key        | value|
 | ---------- | -------- |
